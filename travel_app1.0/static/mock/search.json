@@ -1,7 +1,7 @@
 {
   "ret": true,
   "data": {
-    "suggestListLine01": [{
+    "suggestSight": {
       "iconUrl": "http://img1.qunarzz.com/piao/fusion/1511/da/8c3405b0e7d493f7.png",
       "groupLists": [{
         "id": "suggest01r",
@@ -68,10 +68,10 @@
         "title": "恭王府",
         "linkUrl": "http://piao.qunar.com/touch/detail.htm?id=14499&cat=from_area%3Dtl_hot_search%26from_value%3D%25E6%2581%25AD%25E7%258E%258B%25E5%25BA%259C%26from_index%3D20"
       } ]
-    }],
+    },
 
 
-    "suggestListLine02": [{
+    "suggestPlace": {
       "iconUrl": "http://img1.qunarzz.com/piao/fusion/1511/e8/d46972e07444bbf7.png",
       "groupLists": [{
         "id": "suggest21r",
@@ -122,6 +122,6 @@
         "title": "西安",
         "linkUrl": "http://piao.qunar.com/touch/list.htm?&page=1&pageSize=20&keyword=%E8%A5%BF%E5%AE%89&region=天津&cityName=天津&cat=from_area%3Dtl_hot_search%26from_value%3D%25E8%25A5%25BF%25E5%25AE%2589%26from_index%3D9"
       }]
-    }]
+    }
   }
 }

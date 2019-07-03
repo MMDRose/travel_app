@@ -3,7 +3,7 @@
     <!--1. 输入区域-->
     <search-header></search-header>
     <!--2. 热门搜索-->
-    <search-hot :searchList01="searchList01"></search-hot>
+    <search-hot :suggestSight="suggestSight" :suggestPlace="suggestPlace"></search-hot>
   </div>
 </template>
 
@@ -20,8 +20,8 @@ export default {
   },
   data () {
     return {
-      searchList01: [], //推荐列表01
-      searchList02: [] //推荐列表02
+      suggestSight: {}, // 推荐景点
+      suggestPlace: {} // 推荐地名
     }
   },
   methods: {
@@ -30,14 +30,13 @@ export default {
         .then(this.handleSearchListSucc)
     },
     handleSearchListSucc (res) {
-      res = this.data
+      res = res.data
       if (res.ret && res.data) {
         const data = res.data
-        this.searchList01 = data.suggestListLine01 // 推荐列表line01
-        this.searchList02 = data.suggestListLine02 // 推荐列表line02
+        this.suggestSight = data.suggestSight // 推荐景点
+        this.suggestPlace = data.suggestPlace // 推荐地名
       }
-    },
-
+    }
   },
   mounted () {
     this.getSearchList()
