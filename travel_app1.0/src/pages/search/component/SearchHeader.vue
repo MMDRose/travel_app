@@ -2,7 +2,7 @@
   <header class="common-header border-bottom">
     <!--1.1 返回-->
     <router-link to="/">
-      <span class="iconfont iconfanhui typing-back"></span>
+      <span class="iconfont icon-back typing-back"></span>
     </router-link>
     <!--1.2 输入框-->
     <div class="typing-input">

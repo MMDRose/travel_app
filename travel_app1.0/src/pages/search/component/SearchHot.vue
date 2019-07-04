@@ -5,8 +5,8 @@
       <!--1.1 title-->
       <header class="suggest-title">
         <span>搜索历史</span>
-        <span class="clear-btn">
-          <i class="iconfont iconimage"></i>
+        <span class="clear-btn" @click="historyClear">
+          <i class="iconfont icon-delete"></i>
           清除
         </span>
       </header>
@@ -29,6 +29,10 @@
       <!--2.1 title-->
       <header class="suggest-title">
         <span>热门搜索</span>
+        <span class="change-btn">
+           <i class="iconfont icon-update"></i>
+          换一换
+        </span>
       </header>
       <!--2.2 推荐内容-->
       <div class="suggest-cnt">
@@ -82,6 +86,12 @@ export default {
   props: {
     suggestSight: Object, // 推荐景点
     suggestPlace: Object // 推荐地名
+  },
+  methods: {
+    // 点击按钮--清除历史记录
+    historyClear () {
+
+    }
   }
 }
 </script>
@@ -93,6 +103,7 @@ export default {
     position absolute
     top .98rem
     width 100%
+    font-size .26rem
     -webkit-box-shadow: 0 .01rem .03rem .01rem #c7ced4
     -moz-box-shadow: 0 .01rem .03rem .01rem #c7ced4
     box-shadow: 0 .01rem .03rem .01rem #c7ced4
@@ -105,9 +116,9 @@ export default {
       height .64rem
       line-height .64rem
       color #888
-      font-size .26rem
       background-color $bgLightBlue
-      .clear-btn
+      .clear-btn,
+      .change-btn
         color $colorMainGreen
     /*2.2 推荐内容*/
     .suggest-cnt
@@ -188,6 +199,5 @@ export default {
           border .01rem solid #c9cccd
           border-radius 3px
           text-align center
-          font-size .26rem
           ellipsis()
 </style>
