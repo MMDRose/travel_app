@@ -5,18 +5,16 @@
     <div>
       <!--1. 当前城市-->
       <div class="area">
-        <!--1.1 区域标题-->
         <div class="area-title border-top-bottom">当前城市</div>
-        <!--1.2 内容-->
         <div class="button-list">
           <div class="button-wrapper">
             <div class="button">北京</div>
           </div>
         </div>
       </div>
+
       <!--2. 热门城市-->
       <div class="area">
-        <!--2.1 区域标题-->
         <div class="area-title border-top-bottom">热门城市</div>
         <div class="button-list">
           <div class="button-wrapper"
@@ -28,13 +26,13 @@
           </div>
         </div>
       </div>
+
       <!--3. 城市列表-->
       <div class="area"
            v-for="(item, key) of cityList"
            :key="key"
            :ref="key"
       >
-        <!--3.1 区域标题-->
         <h2 class="area-title border-top-bottom" :data-id="key">{{ key }}</h2>
         <ul class="city-lists">
           <li class="city-item border-bottom"
