@@ -5,7 +5,7 @@
     <div>
       <!--1. 当前城市-->
       <div class="area">
-        <div class="area-title border-top-bottom">当前城市</div>
+        <div class="area-title ">当前城市</div>
         <div class="button-list">
           <div class="button-wrapper">
             <div class="button">北京</div>
@@ -15,7 +15,7 @@
 
       <!--2. 热门城市-->
       <div class="area">
-        <div class="area-title border-top-bottom">热门城市</div>
+        <div class="area-title ">热门城市</div>
         <div class="button-list">
           <div class="button-wrapper"
                v-for="item of cityHot"
@@ -32,8 +32,9 @@
            v-for="(item, key) of cityList"
            :key="key"
            :ref="key"
+
       >
-        <h2 class="area-title border-top-bottom" :data-id="key">{{ key }}</h2>
+        <h2 class="area-title " :data-id="key">{{ key }}</h2>
         <ul class="city-lists">
           <li class="city-item border-bottom"
               v-for="innerItem of item"
@@ -78,45 +79,41 @@ export default {
 <style scoped rel="stylesheet/stylus" lang="stylus">
   @import "~style/varibles.styl"
   @import "~style/mixins.styl"
-  /*当前类的前后都添加边框颜色*/
-  .border-top-bottom
-    &:before
-      border-color #ddd
-    &:after
-      border-color #ddd
-  .border-bottom
-    &:after
-      border-color #ddd
 
   .city-list
     overflow hidden
     position absolute
-    top 0
+    top 1.68rem /*.8+.86*/
     left 0
     bottom 0
     right 0
-    background-color #25a4bb
-    /*1.1 区域标题*/
-    .area-title
-      margin .24rem .3rem
-      font-size .24rem
-    /*1.2 内容*/
-    .button-list,
-    .city-lists
-      padding .1rem .6rem .1rem .1rem
+    .area
       overflow hidden
-      background-color #fff
-      .button-wrapper
-        float left
-        width 33.33%
-        .button
-          padding .1rem 0
-          margin .1rem
-          text-align center
-          border .02rem solid #ddd
-          border-radius .06rem
-      .city-item
-        line-height .76rem
-        padding-left .2rem
-        ellipsis()
+      /*1.1 区域标题*/
+      .area-title
+        margin .24rem .3rem
+        font-size .24rem
+        color $textSub
+      /*1.2 内容*/
+      .button-list,
+      .city-lists
+        padding .1rem .6rem .1rem .1rem
+        overflow hidden
+        background-color #fff
+        .button-wrapper
+          float left
+          width 33.33%
+          .button
+            padding .15rem 0
+            margin .1rem
+            text-align center
+            border-radius .06rem
+            background-color rgb(234,238,241)
+            font-weight 500
+            color $textMainTitle
+        .city-item
+          line-height .76rem
+          padding-left .2rem
+          color $textMainTitle
+          ellipsis()
 </style>

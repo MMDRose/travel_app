@@ -83,7 +83,7 @@ export default {
           clearTimeout(this.timer)
         }
         this.timer = setTimeout(() => {
-          const touchY = e.touches[0].clientY // handleTouchMove方法中の e.touches[0]就代表手指的位置
+          const touchY = e.touches[0].clientY - 168 // handleTouchMove方法中の e.touches[0]就代表手指的位置
           const index = Math.floor((touchY - this.startY) / 20) // 下标--20为每个字母の高度，Math.floor()向下取整
           if (index >= 0 && index < this.getLettersList.length) { // 由于滑动的范围可能在字母区域之外，所以需要有所限制
             this.$emit('change', this.getLettersList[index]) // 向外触发index下标对应的字母，如P，L，S，M，A...
@@ -119,7 +119,9 @@ export default {
     justify-content center
     width .4rem
     .letter-item
-      line-height .4rem
+      line-height .36rem
       color $colorMainGreen
       text-align center
+      font-size .24rem
+      font-weight 550
 </style>

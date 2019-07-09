@@ -1,5 +1,9 @@
 <template>
   <div class="common-wrap city-wrap">
+    <!--顶部导航-->
+    <city-header></city-header>
+    <!--搜索-->
+    <city-search :cityList="cityList"></city-search>
     <!--城市-->
     <city-list
       :cityList="cityList"
@@ -17,12 +21,16 @@
 <script>
 // ajax的请求一般放在外层的组件中写，发送一次ajax就可以获取到数据内容
 import axios from 'axios'
+import CityHeader from './component/CityHeader'
+import CitySearch from './component/CitySearch'
 import CityList from './component/CityList'
 import AlcoholLetter from './component/AlcoholLetter'
 
 export default {
   name: 'City',
   components: {
+    CityHeader,
+    CitySearch,
     CityList,
     AlcoholLetter
   },

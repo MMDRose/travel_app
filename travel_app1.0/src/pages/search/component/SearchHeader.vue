@@ -2,7 +2,7 @@
   <header class="common-header border-bottom">
     <!--1.1 返回-->
     <router-link to="/">
-      <span class="iconfont icon-back typing-back"></span>
+      <span class="iconfont icon-back header-back-search"></span>
     </router-link>
     <!--1.2 输入框-->
     <div class="typing-input">
@@ -21,13 +21,13 @@ export default {
 
 <style scoped rel="stylesheet/stylus" lang="stylus">
   @import '~style/varibles.styl'
-  /*1.返回按钮*/
-  .typing-back
-    width .4rem
-    padding 0 .2rem
-    font-size .36rem
-    color $text
-    font-weight 600
+  .header-back-search {
+    width: .4rem;
+    padding: 0 .2rem;
+    font-size: .36rem;
+    color: $text;
+    font-weight: 600;
+  }
   /*2.输入框*/
   .typing-input
     margin .14rem 0
