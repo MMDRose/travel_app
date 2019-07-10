@@ -50,17 +50,13 @@
 
 <script>
 // 引入better-scroll
-import BScroll from 'better-scroll'
+import Bscroll from 'better-scroll'
 export default {
   name: 'CityList',
   props: {
     cityHot: Array, // 热门城市
     cityList: Object, // 城市列表
     letter: String // 用户点击的字母
-  },
-  mounted () {
-    // DOM挂载完毕后，创建BScroll实例
-    this.scroll = new BScroll(this.$refs.wrapper)
   },
   watch: {
     // 侦听器，实时监听letter的变化
@@ -72,6 +68,10 @@ export default {
         this.scroll.scrollToElement(element)
       }
     }
+  },
+  mounted () {
+    // DOM挂载完毕后，创建BScroll实例
+    this.scroll = new Bscroll(this.$refs.wrapper)
   }
 }
 </script>
