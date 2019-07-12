@@ -121,3 +121,10 @@ a {
   color: #25a4bb;
   text-decoration: none;
 }
+
+span,
+a,
+img,
+li {
+  display: inline-block;
+}

@@ -21,30 +21,38 @@ export default {
 
 <style scoped rel="stylesheet/stylus" lang="stylus">
   @import '~style/varibles.styl'
-  .header-back-search {
-    width: .4rem;
-    padding: 0 .2rem;
-    font-size: .36rem;
-    color: $text;
-    font-weight: 600;
-  }
+  .header-back-search
+    width .4rem
+    padding 0 .2rem
+    font-size .36rem
+    color $text
+    font-weight 600
   /*2.输入框*/
   .typing-input
     margin .14rem 0
-    padding 0 .6rem 0 .2rem
     flex 1
     height .6rem
     line-height .6rem
     border-radius .3rem
     background-color #f2f2f2
-    .search
+    text-align center
+    input.search
+      padding 0 .28rem
+      box-sizing border-box
+      width 100%
+      color $textSub
       background-color transparent
+      text-align left
+    input::-webkit-input-placeholder
+      color $textSub
       text-align center
   /*3.搜索按钮*/
   .typing-btn
     padding 0 .1rem
     margin-right .04rem
-    width .74rem
+    width .84rem
     font-size .28rem
+    text-align center
     color $textMainTitle
+
 </style>

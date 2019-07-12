@@ -112,7 +112,7 @@ export default {
     .suggest-title
       display flex
       justify-content space-between
-      padding $padding
+      padding padding()
       height .64rem
       line-height .64rem
       color #888
