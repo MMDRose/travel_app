@@ -8,7 +8,7 @@
         <div class="area-title ">当前城市</div>
         <div class="button-list">
           <div class="button-wrapper">
-            <div class="button">北京</div>
+            <div class="button"></div>
           </div>
         </div>
       </div>
@@ -21,6 +21,7 @@
                v-for="item of cityHot"
                :key="item.id"
                :data-id="item.id"
+               @click="chooseCity(item.name)"
           >
             <div class="button">{{ item.name }}</div>
           </div>
@@ -32,13 +33,13 @@
            v-for="(item, key) of cityList"
            :key="key"
            :ref="key"
-
       >
         <h2 class="area-title " :data-id="key">{{ key }}</h2>
         <ul class="city-lists">
           <li class="city-item border-bottom"
               v-for="innerItem of item"
               :key="innerItem.id"
+              @click="chooseCity(innerItem.name)"
           >
             {{ innerItem.name }}
           </li>
@@ -58,6 +59,11 @@ export default {
     cityList: Object, // 城市列表
     letter: String // 用户点击的字母
   },
+  data () {
+    return {
+      city: ''
+    }
+  },
   watch: {
     // 侦听器，实时监听letter的变化
     letter () {
@@ -67,6 +73,12 @@ export default {
         // better-scroll 提供的方法，滚动到点击的位置
         this.scroll.scrollToElement(element)
       }
+    }
+  },
+  methods: {
+    chooseCity (city) {
+      this.$root.bus.$emit('change', city)
+      this.$router.push('/')
     }
   },
   mounted () {
@@ -112,6 +124,7 @@ export default {
             font-weight 500
             color $textMainTitle
         .city-item
+          width 100%
           line-height .76rem
           padding-left .2rem
           color $textMainTitle

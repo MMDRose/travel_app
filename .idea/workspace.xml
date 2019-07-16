@@ -3,17 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4fd55825-2835-4be7-ba82-de1c05699bc1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travel_app1.0/src/assets/style/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/travel_app1.0/src/assets/style/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travel_app1.0/src/assets/style/mixins.styl" beforeDir="false" afterPath="$PROJECT_DIR$/travel_app1.0/src/assets/style/mixins.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travel_app1.0/src/assets/style/varibles.styl" beforeDir="false" afterPath="$PROJECT_DIR$/travel_app1.0/src/assets/style/varibles.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travel_app1.0/src/pages/home/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/travel_app1.0/src/pages/home/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travel_app1.0/src/pages/home/component/HomeBanner.vue" beforeDir="false" afterPath="$PROJECT_DIR$/travel_app1.0/src/pages/home/component/HomeBanner.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel_app1.0/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/travel_app1.0/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel_app1.0/src/pages/city/component/CityList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/travel_app1.0/src/pages/city/component/CityList.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/travel_app1.0/src/pages/home/component/HomeHeader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/travel_app1.0/src/pages/home/component/HomeHeader.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travel_app1.0/src/pages/home/component/HomeHot.vue" beforeDir="false" afterPath="$PROJECT_DIR$/travel_app1.0/src/pages/home/component/HomeHot.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travel_app1.0/src/pages/home/component/HomeIcons.vue" beforeDir="false" afterPath="$PROJECT_DIR$/travel_app1.0/src/pages/home/component/HomeIcons.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travel_app1.0/src/pages/home/component/HomeLike.vue" beforeDir="false" afterPath="$PROJECT_DIR$/travel_app1.0/src/pages/home/component/HomeLike.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travel_app1.0/src/pages/home/component/HomeWeekend.vue" beforeDir="false" afterPath="$PROJECT_DIR$/travel_app1.0/src/pages/home/component/HomeWeekend.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travel_app1.0/static/mock/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/travel_app1.0/static/mock/home.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,15 +24,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1512">
               <caret line="60" column="24" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="varibles.styl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/travel_app1.0/src/assets/style/varibles.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" column="13" selection-start-line="7" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -78,8 +61,63 @@
       <file leaf-file-name="HomeHeader.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/travel_app1.0/src/pages/home/component/HomeHeader.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            <state relative-caret-position="308">
+              <caret line="43" column="3" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
+              <folding>
+                <element signature="n#div#2;n#div#0;n#template#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/travel_app1.0/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#140#161#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CityList.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/travel_app1.0/src/pages/city/component/CityList.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1204">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlcoholLetter.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/travel_app1.0/src/pages/city/component/AlcoholLetter.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="54" column="23" lean-forward="true" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/travel_app1.0/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="City.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/travel_app1.0/src/pages/city/City.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+              <folding>
+                <element signature="e#478#503#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,14 +134,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>title</find>
-      <find>CityLetter</find>
       <find>better-scroll</find>
       <find>handleCityClick</find>
       <find>button</find>
       <find>letter</find>
       <find>handleClickLetter</find>
-      <find>handleChangeLetter</find>
       <find>handleTouchMove</find>
       <find>typing-back</find>
       <find>header-back-search</find>
@@ -126,6 +161,9 @@
       <find>getLettersList</find>
       <find>pages</find>
       <find>home-like-more</find>
+      <find>getCurrCity</find>
+      <find>handleChangeLetter</find>
+      <find>chooseCity</find>
     </findStrings>
     <replaceStrings>
       <replace>header-back</replace>
@@ -152,13 +190,11 @@
         <option value="$PROJECT_DIR$/travel_app1.0/src/assets/style/border.css" />
         <option value="$PROJECT_DIR$/travel_app1.0/src/pages/city/component/AlcoholLetter.vue" />
         <option value="$PROJECT_DIR$/travel_app1.0/src/pages/city/City.vue" />
-        <option value="$PROJECT_DIR$/travel_app1.0/src/pages/city/component/CityList.vue" />
         <option value="$PROJECT_DIR$/travel_app1.0/src/pages/city/component/CitySearch.vue" />
         <option value="$PROJECT_DIR$/travel_app1.0/src/pages/search/component/SearchHot.vue" />
         <option value="$PROJECT_DIR$/travel_app1.0/src/assets/style/iconfont.css" />
         <option value="$PROJECT_DIR$/travel_app1.0/src/assets/style/reset.css" />
         <option value="$PROJECT_DIR$/travel_app1.0/src/pages/search/component/SearchHeader.vue" />
-        <option value="$PROJECT_DIR$/travel_app1.0/src/main.js" />
         <option value="$PROJECT_DIR$/travel_app1.0/src/pages/home/component/HomeIcons.vue" />
         <option value="$PROJECT_DIR$/travel_app1.0/src/assets/style/common.css" />
         <option value="$PROJECT_DIR$/travel_app1.0/src/assets/style/mixins.styl" />
@@ -169,6 +205,8 @@
         <option value="$PROJECT_DIR$/travel_app1.0/src/pages/home/component/HomeWeekend.vue" />
         <option value="$PROJECT_DIR$/travel_app1.0/src/pages/home/component/HomeLike.vue" />
         <option value="$PROJECT_DIR$/travel_app1.0/src/pages/home/component/HomeBanner.vue" />
+        <option value="$PROJECT_DIR$/travel_app1.0/src/pages/city/component/CityList.vue" />
+        <option value="$PROJECT_DIR$/travel_app1.0/src/main.js" />
         <option value="$PROJECT_DIR$/travel_app1.0/src/pages/home/component/HomeHeader.vue" />
       </list>
     </option>
@@ -182,7 +220,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/travel_app1.0/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1280" />
@@ -209,108 +247,7 @@
               <item name="travel_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="travel_app" type="462c0819:PsiDirectoryNode" />
               <item name="travel_app1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="travel_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travel_app" type="462c0819:PsiDirectoryNode" />
-              <item name="travel_app1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="travel_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travel_app" type="462c0819:PsiDirectoryNode" />
-              <item name="travel_app1.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="travel_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travel_app" type="462c0819:PsiDirectoryNode" />
-              <item name="travel_app1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="travel_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travel_app" type="462c0819:PsiDirectoryNode" />
-              <item name="travel_app1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="travel_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travel_app" type="462c0819:PsiDirectoryNode" />
-              <item name="travel_app1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-              <item name="iconfont" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="travel_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travel_app" type="462c0819:PsiDirectoryNode" />
-              <item name="travel_app1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="travel_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travel_app" type="462c0819:PsiDirectoryNode" />
-              <item name="travel_app1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="city" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="travel_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travel_app" type="462c0819:PsiDirectoryNode" />
-              <item name="travel_app1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="city" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="travel_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travel_app" type="462c0819:PsiDirectoryNode" />
-              <item name="travel_app1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="travel_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travel_app" type="462c0819:PsiDirectoryNode" />
-              <item name="travel_app1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="travel_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travel_app" type="462c0819:PsiDirectoryNode" />
-              <item name="travel_app1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="travel_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travel_app" type="462c0819:PsiDirectoryNode" />
-              <item name="travel_app1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="travel_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="travel_app" type="462c0819:PsiDirectoryNode" />
-              <item name="travel_app1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="travel_app" type="b2602c69:ProjectViewProjectNode" />
@@ -407,15 +344,15 @@
       <workItem from="1562808072423" duration="12149000" />
       <workItem from="1562895461876" duration="18529000" />
       <workItem from="1563156883425" duration="18683000" />
-      <workItem from="1563239545606" duration="10522000" />
+      <workItem from="1563239545606" duration="21891000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176351000" />
+    <option name="totallyTimeSpent" value="187720000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="-8" width="1861" height="1096" extended-state="7" />
+    <frame x="67" y="-8" width="1861" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28401083" />
@@ -561,27 +498,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travel_app1.0/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-197">
-          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/travel_app1.0/src/pages/city/component/CitySearch.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="37" column="10" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel_app1.0/src/pages/city/City.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding>
-            <element signature="e#478#503#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -663,13 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travel_app1.0/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/travel_app1.0/src/assets/style/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="874">
@@ -717,24 +630,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travel_app1.0/src/pages/city/component/AlcoholLetter.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/travel_app1.0/src/pages/city/component/CityHeader.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
           <caret line="1" column="30" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel_app1.0/src/pages/city/component/CityList.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1260">
-          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -790,10 +689,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/travel_app1.0/src/pages/city/City.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+          <folding>
+            <element signature="e#478#503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel_app1.0/src/pages/city/component/AlcoholLetter.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="54" column="23" lean-forward="true" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel_app1.0/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel_app1.0/src/pages/city/component/CityList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1204">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel_app1.0/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#140#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/travel_app1.0/src/pages/home/component/HomeHeader.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        <state relative-caret-position="308">
+          <caret line="43" column="3" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
+          <folding>
+            <element signature="n#div#2;n#div#0;n#template#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

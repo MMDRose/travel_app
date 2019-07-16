@@ -19,6 +19,8 @@ fastClick.attach(document.body)
 // 使用vue-awesome-swiper，后面可跟参数
 Vue.use(VueAwesomeSwiper)
 
+Vue.prototype.bus = new Vue()
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

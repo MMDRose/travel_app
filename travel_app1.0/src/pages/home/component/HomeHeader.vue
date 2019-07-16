@@ -1,10 +1,10 @@
 <template>
   <div class="common-header home-header">
     <!--1. 定位-->
-    <div class="site">
-      <span class="current">天津</span>
+    <router-link tag="div" to="/city" class="site">
+      <span class="current">{{ city }}</span>
       <span class="iconfont icon-arrow-down"></span>
-    </div>
+    </router-link>
     <!--2. 搜索-->
     <router-link tag="div" to="/search" class="search">
       <span class="iconfont icon-search"></span>
@@ -32,7 +32,8 @@ export default {
   name: 'HomeHeader',
   data () {
     return {
-      ifShowMore: false // 控制模块显隐
+      ifShowMore: false, // 控制模块显隐
+      city: '' // 当前城市
     }
   },
   methods: {
@@ -40,6 +41,16 @@ export default {
     handleShowMore () {
       this.ifShowMore = !this.ifShowMore
     }
+  },
+  mounted () {
+    var _this = this // this的作用域发生了改变
+    this.$root.bus.$on('change', (city) => {
+      _this.city = city
+      console.log('home header1' + city)
+      console.log('home header2' + _this.city)
+      return _this.city
+    })
+    console.log('home header3' + _this.city)
   }
 }
 </script>
