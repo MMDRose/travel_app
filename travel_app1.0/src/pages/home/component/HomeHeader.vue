@@ -2,7 +2,7 @@
   <div class="common-header home-header">
     <!--1. 定位-->
     <router-link tag="div" to="/city" class="site">
-      <span class="current">{{ city }}</span>
+      <span class="current">{{ currCity }}</span>
       <span class="iconfont icon-arrow-down"></span>
     </router-link>
     <!--2. 搜索-->
@@ -33,7 +33,7 @@ export default {
   data () {
     return {
       ifShowMore: false, // 控制模块显隐
-      city: '' // 当前城市
+      currCity: '' // 当前城市
     }
   },
   methods: {
@@ -45,12 +45,12 @@ export default {
   mounted () {
     var _this = this // this的作用域发生了改变
     this.$root.bus.$on('change', (city) => {
-      _this.city = city
+      _this.currCity = city
       console.log('home header1' + city)
-      console.log('home header2' + _this.city)
-      return _this.city
+      console.log('home header2' + _this.currCity)
+      return _this.currCity
     })
-    console.log('home header3' + _this.city)
+    console.log('home header3' + _this.currCity)
   }
 }
 </script>

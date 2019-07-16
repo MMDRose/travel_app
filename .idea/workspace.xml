@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fd55825-2835-4be7-ba82-de1c05699bc1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travel_app1.0/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/travel_app1.0/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travel_app1.0/src/pages/city/component/CityList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/travel_app1.0/src/pages/city/component/CityList.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/travel_app1.0/src/pages/home/component/HomeHeader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/travel_app1.0/src/pages/home/component/HomeHeader.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -61,8 +58,8 @@
       <file leaf-file-name="HomeHeader.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/travel_app1.0/src/pages/home/component/HomeHeader.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="43" column="3" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
+            <state relative-caret-position="224">
+              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
               <folding>
                 <element signature="n#div#2;n#div#0;n#template#0;n#!!top" />
               </folding>
@@ -344,12 +341,12 @@
       <workItem from="1562808072423" duration="12149000" />
       <workItem from="1562895461876" duration="18529000" />
       <workItem from="1563156883425" duration="18683000" />
-      <workItem from="1563239545606" duration="21891000" />
+      <workItem from="1563239545606" duration="22824000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187720000" />
+    <option name="totallyTimeSpent" value="188653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="-8" width="1861" height="1096" extended-state="6" />
@@ -733,8 +730,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/travel_app1.0/src/pages/home/component/HomeHeader.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="43" column="3" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
+        <state relative-caret-position="224">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
           <folding>
             <element signature="n#div#2;n#div#0;n#template#0;n#!!top" />
           </folding>
