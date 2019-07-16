@@ -61,6 +61,9 @@ export default {
 /* 轮播控制点 位置*/
 .home-icons >>> .swiper-container-horizontal > .swiper-pagination-bullets
   bottom 6px
+.home-icons >>> .swiper-container-horizontal .swiper-pagination-bullet
+  width 6px
+  height 6px
 .home-icons >>> .swiper-pagination-bullet-active
   background rgba(0,175,190,.8)
 
@@ -69,7 +72,7 @@ export default {
   width 100%
   height 0
   padding-bottom 56%
-  background-color #25a4bb
+  background-color $bgWhite
 .icon-chip
   overflow hidden
   position relative
@@ -80,11 +83,11 @@ export default {
   text-align center
   .icon-img
     position absolute
-    top 0
+    top .18rem
     left 0
     right 0
-    bottom 0.24rem
-    padding .25rem
+    /*bottom 0.24rem*/
+    bottom 0rem
     box-sizing border-box
     .icon-img-cnt
       display inline-block
@@ -93,7 +96,7 @@ export default {
     position absolute
     left 0
     right 0
-    bottom 0
+    bottom .1rem
     height .44rem
     line-height .44rem
     font-size 0.28rem

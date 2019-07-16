@@ -37,16 +37,19 @@ export default {
 .home-banner >>> .swiper-pagination-bullet
   background-color #f5f5f5
   opacity .5
+  width 6px
+  height 6px
 .home-banner >>> .swiper-pagination-bullet-active
   background-color $bgWhite
   opacity 1
 .home-banner
+  margin-top .88rem
   overflow hidden
   width 100%
   height 0
-  padding-bottom 31.25%
+  /*padding-bottom 31.25%*/
+  padding-bottom 26.7%
   background-color #eee
   .swiper-img
     width 100%
-
 </style>

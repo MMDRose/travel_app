@@ -7,11 +7,11 @@
     <!--3. 金刚区-->
     <home-icons :iconList="iconList"></home-icons>
     <!--4. 热门推荐-->
-    <home-hot :recommendList="recommendList"></home-hot>
+    <home-hot :hotList="hotList"></home-hot>
     <!--5. 猜你喜欢-->
-    <home-like></home-like>
+    <home-like :likeList="likeList"></home-like>
     <!--6. 周末游-->
-    <home-weekend></home-weekend>
+    <home-weekend :weekendList="weekendList"></home-weekend>
   </div>
 </template>
 
@@ -38,7 +38,8 @@ export default {
     return {
       swiperList: [], // 轮播
       iconList: [], // 金刚区
-      recommendList: [], // 热门推荐
+      hotList: [], // 热门推荐
+      likeList: [], // 猜你喜欢
       weekendList: [] // 周末游
     }
   },
@@ -55,7 +56,8 @@ export default {
         const data = res.data
         this.swiperList = data.swiperList // 轮播
         this.iconList = data.iconList // 金刚区
-        this.recommendList = data.recommendList // 热门推荐
+        this.hotList = data.hotList // 热门推荐
+        this.likeList = data.likeList // 猜你喜欢
         this.weekendList = data.weekendList // 周末游
       }
     }

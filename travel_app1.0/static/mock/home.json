@@ -2,18 +2,21 @@
   "ret": true,
   "data": {
     "swiperList": [{
-        "id": "swiperList0001",
-        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1801/1a/94428c6dea109402.jpg_640x200_2cf590d8.jpg"
-      },{
-        "id": "swiperList0002",
-        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1802/42/7c92b9a381e46402.jpg_640x200_1cdce2a4.jpg"
-      },{
-        "id": "swiperList0003",
-        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1802/51/e78f936a5b404102.jpg_640x200_c14f0b3a.jpg"
-      },{
-        "id": "swiperList0004",
-        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1712/91/a275569091681d02.jpg_640x200_0519ccb9.jpg"
-      }],
+        "id": "banner0001",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/87a224d0349d94a11e97f31aa1aba4f5.jpg_750x200_1f78af87.jpg"
+      }, {
+        "id": "banner0002",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20196/818f6cc784ae6669b74bbbb255414a53.jpg_750x200_66ca5873.jpg"
+      }, {
+        "id": "banner0003",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20197/111823a9c4eaabedf7d9ef1299b802f5.jpg_750x200_6d400940.jpg"
+      }, {
+        "id": "banner0004",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/d7bbc21db442366a882e04ddc984669a.jpg_750x200_85e640d9.jpg"
+      }, {
+      "id": "banner0005",
+      "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20196/483ad58e4319885ebc95bd3b2a0a8fbd.jpg_750x200_850ef75d.jpg"
+    }],
 
     "iconList": [{
         "id": "icon0001",
@@ -57,58 +60,321 @@
       "desc": "都江堰"
     }],
 
-    "recommendList": [{
-        "id": "0001",
-        "imgUrl": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg",
-        "title": "故宫",
-        "desc": "东方宫殿建筑代表，世界宫殿建筑典范"
+    "hotList": [{
+        "id": "hot0001",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/201309/24/977fea7b3c5cd758c8d65eac.jpg_250x250_145eeeb5.jpg",
+        "title": "成都大熊猫繁育研究基地",
+        "price": "￥19.8"
       }, {
-        "id": "0002",
-        "imgUrl": "http://img1.qunarzz.com/sight/p0/1511/d2/d2aec2dfc5aa771290.water.jpg_140x140_abb362a7.jpg",
-        "title": "南山滑雪场",
-        "desc": "北京专业级滑雪圣地"
+        "id": "hot0002",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1612/1d/1d9a740c1f9e0efaa3.img.jpg_250x250_427ee986.jpg",
+        "title": "成都海昌极地海洋公园",
+        "price": "￥49.9"
       }, {
-        "id": "0003",
-        "imgUrl": "http://img1.qunarzz.com/sight/p0/1501/f4/f467729126949c3a.water.jpg_140x140_ef235b1c.jpg",
-        "title": "天安门广场",
-        "desc": "我爱北京天安门，天安门上太阳升"
+        "id": "hot0003",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/201407/03/a584374ee80b738e2600d6bcaf1299e3.jpg_250x250_986e4594.jpg",
+        "title": "都江堰",
+        "price": "￥38"
       }, {
-        "id": "0004",
-        "imgUrl": "http://img1.qunarzz.com/sight/p0/1501/40/40b2b6c951b28fdd.water.jpg_140x140_1c863e5c.jpg",
-        "title": "水立方",
-        "desc": "中国的荣耀，阳光下的晶莹水滴"
+        "id": "hot0004",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/201403/03/77a8f60ea243465fdf2c937e2edd33dd.jpg_250x250_cbf0adb9.jpg",
+        "title": "国色天乡·水上乐园",
+        "price": "￥79.5"
       }, {
-        "id": "0005",
-        "imgUrl": "http://img1.qunarzz.com/sight/p0/201308/23/b283071686e64dfec8d65eac.jpg_140x140_8c5a7c49.jpg",
-        "title": "温都水城养生馆",
-        "desc": "各种亚热带植物掩映其间仿佛置身热带雨林"
+        "id": "hot0005",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1704/a5/a59677101e07d38a3.img.jpg_250x250_f664a359.jpg",
+        "title": "国色天乡·陆地乐园",
+        "price": "￥28"
+      }, {
+        "id": "hot0006",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1505/b0/b0132e78efa00572.water.jpg_250x250_419e0690.jpg",
+        "title": "青城山",
+        "price": "￥28"
+      }, {
+        "id": "hot0007",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/201307/23/b8db11dca4378903c8d65eac.jpg_250x250_aaa0ef4d.jpg",
+        "title": "成都动物园",
+        "price": "￥20"
+      }, {
+        "id": "hot0008",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1509/1d/e74e796e4e21275427ffdd838619f45f.water.jpg_250x250_c961a51b.jpg",
+        "title": "成都欢乐谷",
+        "price": "￥28"
+      }, {
+        "id": "hot0009",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1510/23/23fa69e071d77b48.water.jpg_250x250_c2492cde.jpg",
+        "title": "成都环球中心",
+        "price": "￥28"
+      }, {
+        "id": "hot0010",
+        "imgUrl": "http://img1.qunarzz.com/sight/p64/201211/04/9173ff9f33e97f3193835fbb.jpg_250x250_9b1fc434.jpg",
+        "title": "成都杜甫草堂",
+        "price": "￥12"
       }],
 
+
+    "likeList": [{
+      "id": "like0001",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1612/1d/1d9a740c1f9e0efaa3.img.jpg_200x200_63285bd9.jpg",
+      "title": "成都海昌极地海洋公园",
+      "comment": "38894条评论",
+      "price": "￥49.9",
+      "site": "双流区",
+      "feature": "蠢萌企鹅陪你嗨翻这个秋",
+      "stars": "5"
+    }, {
+      "id": "like0002",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/201403/03/77a8f60ea243465fdf2c937e2edd33dd.jpg_200x200_51dd1e90.jpg",
+      "title": "国色天乡·水上乐园",
+      "comment": "9773条评论",
+      "price": "￥79.5",
+      "site": "国色天乡",
+      "feature": "",
+      "stars": "5"
+    }, {
+      "id": "like0003",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1809/72/725f0abc0fb61d0ca3.img.jpg_200x200_6e1fbb45.jpg",
+      "title": "都江堰水果侠星球",
+      "comment": "822条评论",
+      "price": "￥800",
+      "site": "都江堰市",
+      "feature": "拜水都江堰，欢乐水果侠",
+      "stars": "5"
+    }, {
+      "id": "like0004",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1704/a5/a59677101e07d38a3.img.jpg_200x200_6064e939.jpg",
+      "title": "国色天乡·陆地乐园",
+      "comment": "12122条评论",
+      "price": "￥28",
+      "site": "国色天乡",
+      "feature": "镇园之宝眼镜蛇过山车",
+      "stars": "5"
+    }, {
+      "id": "like0005",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/201309/24/977fea7b3c5cd758c8d65eac.jpg_200x200_697c3b3f.jpg",
+      "title": "成都大熊猫繁育研究基地",
+      "comment": "154931条评论",
+      "price": "￥19.8",
+      "site": "成华区",
+      "feature": "看！熊猫宝宝在向你招手呢",
+      "stars": "5"
+    }, {
+      "id": "like0006",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1512/3a/3ab83c0358208e8d90.img.jpg_200x200_14e2fbfd.jpg",
+      "title": "花水湾四季温泉谷",
+      "comment": "406条评论",
+      "price": "￥139",
+      "site": "花水湾温泉",
+      "feature": "",
+      "stars": "5"
+    }, {
+      "id": "like0007",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1509/1d/e74e796e4e21275427ffdd838619f45f.water.jpg_200x200_d994e778.jpg",
+      "title": "成都欢乐谷",
+      "comment": "25207条评论",
+      "price": "￥28",
+      "site": "金牛区",
+      "feature": "超级旋转过山车刺激到让你怀疑人生",
+      "stars": "5"
+    }, {
+      "id": "like0008",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1505/b0/b0132e78efa00572.water.jpg_200x200_3f499a59.jpg",
+      "title": "青城山",
+      "comment": "24160条评论",
+      "price": "￥28",
+      "site": "都江堰市",
+      "feature": "青城山下白素贞，洞中千年修此身",
+      "stars": "5"
+    }, {
+      "id": "like0009",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1901/56/561822590068af6ca3.water.jpg_200x200_f00fe660.jpg",
+      "title": "国色天乡·童话世界",
+      "comment": "3569条评论",
+      "price": "￥95",
+      "site": "国色天乡",
+      "feature": "一个翻天覆地的极限世界",
+      "stars": "5"
+    }, {
+      "id": "like0010",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1701/f0/f086bd92ac11f6ba3.water.jpg_200x200_55dd3af7.jpg",
+      "title": "汤乐源温泉体验馆",
+      "comment": "409条评论",
+      "price": "￥109",
+      "site": "武侯区",
+      "feature": "",
+      "stars": "5"
+    }, {
+      "id": "like0011",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1508/53/53c486532f848d71.img.jpg_200x200_c4be246c.jpg",
+      "title": "西岭雪山",
+      "comment": "14607条评论",
+      "price": "￥139",
+      "site": "大邑县",
+      "feature": "近期小伙伴们收藏最！多！的景点😊",
+      "stars": "5"
+    }, {
+      "id": "like0012",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1706/c4/c4b6c51a2ac942cfa3.img.jpg_200x200_2805e881.jpg",
+      "title": "花舞人间",
+      "comment": "4537条评论",
+      "price": "￥72",
+      "site": "新津县",
+      "feature": "",
+      "stars": "5"
+    }, {
+      "id": "like0013",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1511/61/61f3496f1abeb42790.water.jpg_200x200_aecc1c61.jpg",
+      "title": "海滨城浩海立方海洋馆",
+      "comment": "4114条评论",
+      "price": "￥139",
+      "site": "双流区",
+      "feature": "",
+      "stars": "5"
+    }, {
+      "id": "like0014",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/201301/16/ae96ce4058bd5cf093835fbb.jpg_200x200_e4cb9743.jpg",
+      "title": "青城道温泉",
+      "comment": "2454条评论",
+      "price": "￥138",
+      "site": "都江堰市",
+      "feature": "吐纳青城气息，享受自然温暖",
+      "stars": "5"
+    }, {
+      "id": "like0015",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1901/18/18a13d3f2c02668a3.img.jpg_200x200_16e09455.jpg",
+      "title": "天堂岛海洋乐园",
+      "comment": "5741条评论",
+      "price": "￥28",
+      "site": "武侯区",
+      "feature": "",
+      "stars": "5"
+    }, {
+      "id": "like0016",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1707/f6/f60edcaa8934d4fda3.img.jpg_200x200_37d0eedd.jpg",
+      "title": "天府花溪谷山地户外运动体验公园",
+      "comment": "2416条评论",
+      "price": "￥55",
+      "site": "大邑县",
+      "feature": "",
+      "stars": "5"
+    }, {
+      "id": "like0017",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1609/29/2916ae570302fe94a3.water.jpg_200x200_cf0dff74.jpg",
+      "title": "成都松鼠部落森林假日公园",
+      "comment": "4052条评论",
+      "price": "￥29.9",
+      "site": "双流区",
+      "feature": "",
+      "stars": "5"
+    }, {
+      "id": "like0018",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1905/f0/f0ff114d3d5d81e6a3.img.jpg_200x200_a9c076ea.jpg",
+      "title": "川西竹海景区",
+      "comment": "919条评论",
+      "price": "￥54",
+      "site": "邛崃市",
+      "feature": "",
+      "stars": "5"
+    }, {
+      "id": "like0019",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1411/83/62bfe60d1242874219b5a5bad9f98bd5.water.jpg_200x200_ea401b04.jpg",
+      "title": "南湖梦幻岛",
+      "comment": "5530条评论",
+      "price": "￥45",
+      "site": "双流区",
+      "feature": "去南湖梦幻岛的N大理由",
+      "stars": "5"
+    }, {
+      "id": "like0020",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1809/6d/6de192f67ebc1470a3.img.jpg_200x200_8ec05001.jpg",
+      "title": "漫花庄园",
+      "comment": "3224条评论",
+      "price": "￥35",
+      "site": "新都区",
+      "feature": "这里最近很火哦，好多人都在点评它呢！",
+      "stars": "5"
+    }, {
+      "id": "like0021",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1505/5f/5fe69a7009c18688.water.jpg_200x200_0a8fc9dd.jpg",
+      "title": "成都天台山",
+      "comment": "1458条评论",
+      "price": "￥55",
+      "site": "邛崃市",
+      "feature": "",
+      "stars": "5"
+    }, {
+      "id": "like0022",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/201407/03/a584374ee80b738e2600d6bcaf1299e3.jpg_200x200_c26fb243.jpg",
+      "title": "都江堰",
+      "comment": "51771条评论",
+      "price": "￥38",
+      "site": "都江堰市",
+      "feature": "气势磅礴的“世界水利文化鼻祖",
+      "stars": "5"
+    }, {
+      "id": "like0023",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1905/e1/e142f2d046ac3d45a3.img.png_200x200_84374d90.png",
+      "title": "蔚然花海",
+      "comment": "1121条评论",
+      "price": "￥40",
+      "site": "龙泉驿",
+      "feature": "",
+      "stars": "5"
+    }, {
+      "id": "like0024",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1905/db/dbdd4d4d3c2999d1a3.img.jpg_200x200_3ae726f0.jpg",
+      "title": "黄龙溪欢乐田园",
+      "comment": "261条评论",
+      "price": "￥90",
+      "site": "双流区",
+      "feature": "",
+      "stars": "5"
+    }, {
+      "id": "like0025",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1809/1f/1f39774291457a42a3.img.jpg_200x200_e2d8001d.jpg",
+      "title": "石象湖",
+      "comment": "4032条评论",
+      "price": "￥25",
+      "site": "蒲江县",
+      "feature": "",
+      "stars": "5"
+    }, {
+      "id": "like0026",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1807/3a/3a0589ce9cc5a6f1a3.img.jpg_200x200_73c28ab3.jpg",
+      "title": "花水湾冰火漂流",
+      "comment": "78条评论",
+      "price": "￥81",
+      "site": "花水湾温泉",
+      "feature": "",
+      "stars": "5"
+    }],
+
+
     "weekendList": [{
-        "id": "0001",
-        "imgUrl": "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
-        "title": "北京温泉排行榜",
-        "desc": "细数北京温泉，温暖你的冬天"
+        "id": "weekend0001",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/a2/78e4dbcfd45a6d.jpg_r_640x214_7a62b06a.jpg",
+        "title": "成都必打卡",
+        "desc": "成都的标志，也是现代人对老成都的记忆"
       }, {
-        "id": "0002",
-        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/aa/7baaf8a851d221.jpg_r_640x214_1431200f.jpg",
-        "title": "北京必游TOP10",
-        "desc": "来北京必去的景点非这些地方莫属"
+        "id": "weekend0002",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1507/a0/7087c85d439e4.jpg_r_640x214_4cd56a30.jpg",
+        "title": "远离烧烤模式",
+        "desc": "与冰川里的水晶宫、“摄影家走廊”、来一场亲密的约会，艰辛会有的，可这都是值得的"
       }, {
-        "id": "0003",
-        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
-        "title": "寻找北京的皇城范儿",
-        "desc": "数百年的宫廷庙宇，至今依旧威严霸气"
+        "id": "weekend0003",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1811/65/7322301be0a92c.jpg_r_640x214_a3485c55.jpg",
+        "title": "摩崖石刻造像",
+        "desc": "诸事不顺，来抱佛脚，中国最壮观的大佛大盘点~来一场真正的“佛”系之旅，乐山大佛是首选"
       }, {
-        "id": "0004",
-        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/ce/bc89bc2f0e33ea.jpg_r_640x214_3e408453.jpg",
-        "title": "学生最爱的博物馆",
-        "desc": "周末干嘛？北京很多博物馆已经免费开放啦"
+        "id": "weekend0004",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/63/0ffcb5c329a19c.jpg_r_640x214_93fd1e5a.jpg",
+        "title": "成都文艺范儿",
+        "desc": "《成都》唱火了这里，其实这儿不只有酒馆，还有很多文艺爆棚的地方"
       }, {
-        "id": "0005",
-        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/b2/fde1bfcd057a52.jpg_r_640x214_bbf3fa44.jpg",
-        "title": "儿童剧场，孩子的乐园",
-        "desc": "带宝贝观看演出，近距离体验艺术的无穷魅力"
+        "id": "weekend0005",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/e2/2a63e38b84bc8e.jpg_r_640x214_679f0d37.jpg",
+        "title": "玩转主题乐园",
+        "desc": "乐园，与青春作伴"
       }]
   }
 }

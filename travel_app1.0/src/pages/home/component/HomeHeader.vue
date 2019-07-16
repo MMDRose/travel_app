@@ -1,7 +1,10 @@
 <template>
   <div class="common-header home-header">
     <!--1. 定位-->
-    <div class="site">天津 <span class="iconfont icon-arrow-down"></span></div>
+    <div class="site">
+      <span class="current">天津</span>
+      <span class="iconfont icon-arrow-down"></span>
+    </div>
     <!--2. 搜索-->
     <router-link tag="div" to="/search" class="search">
       <span class="iconfont icon-search"></span>
@@ -44,6 +47,9 @@ export default {
 <style scoped lang="stylus" rel="stylesheet/stylus">
 @import "~style/varibles"
 .home-header
+  position fixed
+  top 0
+  left 0
   text-align center
   color $text
   /*1. 定位 L*/
