@@ -15,12 +15,13 @@
 
 <script>
 export default {
-  name: 'SearchHeader'
+  name: 'ListHeader'
 }
 </script>
 
-<style scoped rel="stylesheet/stylus" lang="stylus">
-  @import '~style/varibles.styl'
+<style scoped lang="stylus" rel="stylesheet/stylus">
+  @import "~style/varibles.styl"
+  @import "~style/mixins.styl"
   .header-back-search
     width .4rem
     padding 0 .2rem
@@ -44,8 +45,8 @@ export default {
       background-color transparent
       text-align left
     input::-webkit-input-placeholder
-      color $textSub
-      text-align center
+            color $textSub
+            text-align center
   /*3.搜索按钮*/
   .typing-btn
     padding 0 .1rem
@@ -54,5 +55,4 @@ export default {
     font-size .28rem
     text-align center
     color $textMainTitle
-
 </style>

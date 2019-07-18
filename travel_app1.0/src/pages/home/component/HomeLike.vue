@@ -30,7 +30,12 @@
       </li>
     </ul>
     <!--更多-->
-    <a class="home-like-more border-top" href="">查看所有产品</a>
+    <router-link
+      class="home-like-more border-top"
+      to="/list"
+    >
+      查看所有产品
+    </router-link>
   </div>
 </template>
 

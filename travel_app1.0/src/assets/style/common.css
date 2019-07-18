@@ -111,9 +111,14 @@
  ** 模块样式（通用）
  **
 */
-/* 1.模块外容器 */
+/* 1.模块外容器 mt */
 .common-group-wrap {
   margin-top: .2rem;
+  background-color: #fff;
+}
+/* 1.模块外容器 mb */
+.common-group-wrapb {
+  margin-bottom: .2rem;
   background-color: #fff;
 }
 /* 2.模块标题 */

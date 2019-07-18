@@ -1,5 +1,5 @@
 <template>
-  <div class="common-header home-header">
+  <header class="common-header home-header">
     <!--1. 定位-->
     <router-link tag="div" to="/city" class="site">
       <span class="current">{{ currCity }}</span>
@@ -24,7 +24,7 @@
         <li class="feature-item"><span class="iconfont icon-track feature-icon"></span><span class="feature-title">足迹</span></li>
       </ul>
     </div>
-  </div>
+  </header>
 </template>
 
 <script>

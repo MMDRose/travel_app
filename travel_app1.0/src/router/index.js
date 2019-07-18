@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from 'pages/home/Home'
 import Search from 'pages/search/Search'
 import City from 'pages/city/City'
+import List from 'pages/list/List'
 
 // 使用router
 Vue.use(Router)
@@ -21,6 +22,10 @@ export default new Router({
       path: '/city',
       name: 'City',
       component: City
+    }, {
+      path: '/list',
+      name: 'List',
+      component: List
     }
   ]
 })

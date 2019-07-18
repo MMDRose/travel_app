@@ -3,14 +3,22 @@
     <swiper :options="swiperOption" >
       <!-- slides -->
       <swiper-slide v-for="(page, index) of pages" :key="index">
-        <div class="icon-chip" v-for="item of page" :key="item.id">
+        <!--点击icon跳转到相应的列表页-->
+        <router-link
+          tag="div"
+          to="/list"
+          class="icon-chip"
+          v-for="item of page"
+          :key="item.id"
+        >
           <div class="icon-img">
             <img class="icon-img-cnt"
                  :src="item.imgUrl"
-                 :alt="item.desc">
+                 :alt="item.desc"
+            >
           </div>
           <p class="icon-desc">{{ item.desc }}</p>
-        </div>
+        </router-link>
       </swiper-slide>
       <!-- Optional controls -->
       <div class="swiper-pagination"  slot="pagination"></div>
