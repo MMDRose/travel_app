@@ -8,12 +8,12 @@
             <a class="full-link">
               <!--1.1 商品图-->
               <div class="sight-item-img">
-                <img class="sight-item-img-cnt" src="https://imgs.qunarzz.com/sight/p0/1505/b0/b0132e78efa00572.water.jpg_110x110_00f7a110.jpg"alt="item.title">
+                <img class="sight-item-img-cnt" src="https://imgs.qunarzz.com/sight/p0/1505/b0/b0132e78efa00572.water.jpg_110x110_00f7a110.jpg" alt="item.title">
               </div>
               <!--1.2 相关信息-->
               <main class="sight-info">
                 <p class="sight-info-title">title</p>
-                <p class="sight-info-comment"></p>
+                <p class="sight-info-comment">评论数：456456</p>
                 <div class="sight-info-other">
                   <span class="price">price</span>起
                   <span class="site">item.site</span>
@@ -93,11 +93,13 @@ export default {
           bottom 0
     /*描述*/
     .desc
-      margin-top .48rem
+      margin-top .18rem
       margin-right .24rem
       ellipsis()
       span
-        color $colorMainRed
-        background-color #fff9f9
-        padding .1rem 0
+        color $blue
+        background-color $lightBlue
+        padding .05rem .1rem
+        box-sizing border-box
+        font-size .24rem
 </style>
