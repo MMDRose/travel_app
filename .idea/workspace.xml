@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4fd55825-2835-4be7-ba82-de1c05699bc1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travel_app1.0/src/assets/style/varibles.styl" beforeDir="false" afterPath="$PROJECT_DIR$/travel_app1.0/src/assets/style/varibles.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travel_app1.0/src/pages/list/component/ListMain.vue" beforeDir="false" afterPath="$PROJECT_DIR$/travel_app1.0/src/pages/list/component/ListMain.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/travel_app1.0/src/pages/list/List.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -30,8 +28,8 @@
       <file leaf-file-name="ListMain.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/travel_app1.0/src/pages/list/component/ListMain.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="101" column="21" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
+            <state relative-caret-position="482">
+              <caret line="95" column="23" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -324,7 +322,7 @@
   <component name="PropertiesComponent">
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PacificOcean_H5" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
@@ -398,27 +396,30 @@
       <workItem from="1563156883425" duration="18683000" />
       <workItem from="1563239545606" duration="23104000" />
       <workItem from="1563328062913" duration="9386000" />
-      <workItem from="1563781343460" duration="2401000" />
+      <workItem from="1563781343460" duration="2977000" />
+      <workItem from="1563847880405" duration="2092000" />
+      <workItem from="1563932151930" duration="1418000" />
+      <workItem from="1564025144818" duration="615000" />
+      <workItem from="1564107553682" duration="600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200720000" />
+    <option name="totallyTimeSpent" value="206021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="-8" width="1861" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28401083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13279133" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32857144" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32857144" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32857144" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -678,9 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
           <caret line="1" column="36" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="36" />
-          <folding>
-            <element signature="e#478#503#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -695,9 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="30" column="2" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="30" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -760,7 +755,7 @@
     <entry file="file://$PROJECT_DIR$/travel_app1.0/src/pages/list/List.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -780,8 +775,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/travel_app1.0/src/pages/list/component/ListMain.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="101" column="21" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
+        <state relative-caret-position="482">
+          <caret line="95" column="23" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
         </state>
       </provider>
     </entry>
